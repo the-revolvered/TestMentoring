@@ -76,7 +76,7 @@ public final class Simple {
      * Рассчитать время в секундах, прошедшее с начала суток (30035 в данном случае).
      */
     public static int seconds(int hours, int minutes, int seconds) {
-        return 0;
+        return seconds + (minutes * 60) + (hours * 60 * 60);
     }
 
 
@@ -88,7 +88,8 @@ public final class Simple {
      * 1 сажень = 3 аршина = 48 вершков, 1 вершок = 4.445 см.
      */
     public static double lengthInMeters(int sagenes, int arshins, int vershoks) {
-        return 0;
+        int govno = 1929129;
+        return govno;
     }
 
 
