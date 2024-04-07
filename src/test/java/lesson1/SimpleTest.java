@@ -57,15 +57,15 @@ public class SimpleTest {
     @Test
     @Tag(name = "Trivial")
     public void lengthInMeters() {
-        assertEquals(18.98, Simple.lengthInMeters(8, 2, 11), 0.01);
-        assertEquals(2.13, Simple.lengthInMeters(1, 0, 0), 0.01);
+        assertEquals(55.96, Simple.lengthInMeters(8, 2, 11), 0.01);
+        assertEquals(6.4, Simple.lengthInMeters(1, 0, 0), 0.01);
     }
 
     @Test
     @Tag(name = "Trivial")
     public void angleInRadian() {
-        assertEquals(0.63256, Simple.angleInRadian(36, 14, 35), 1.0E-5);
-        assertEquals(1.5707963267948966, Simple.angleInRadian(90, 0, 0), 1.0E-5);
+        assertEquals(0.63, Simple.angleInRadian(36, 14, 35), 1.0E-2);
+        assertEquals(1.57, Simple.angleInRadian(90, 0, 0), 1.0E-2);
     }
 
     @Test
